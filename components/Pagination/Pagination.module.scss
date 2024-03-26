@@ -1,0 +1,31 @@
+
+
+.pagination {
+  button {
+    outline: none !important;
+    border: none !important;
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .pagination-list {
+    padding: 0px !important;
+
+    li {
+      list-style: none;
+
+      &.active span {
+        background: red;
+        color: white;
+        border-radius: 5px;
+      }
+
+      span {
+        padding: 0.5em;
+        cursor: pointer;
+        min-width: 2rem;
+      }
+    }
+  }
+}
